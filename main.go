@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	names := []string{"Merve", "Kumsal", "Cakil", "Deniz"}
+	names := []string{"Merve", "Kumsal", "Cakil", "Deniz", "Kumsal"}
 	//add go before function for concurrency
 	go findX(names)
 	go findY(names)
